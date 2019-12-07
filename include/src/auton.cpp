@@ -39,8 +39,19 @@ void rotateCCW(float objAngle) {
   }
 }
 
-void tilterRaise(bool raise) {
-  tilter(50);
+void tilterRaise() {
+  int anglePower = 50;
+  tilter(anglePower);
+  if (angleAdjuster.get_position() >= 3917) {
+    angleAdjuster.move_velocity(0);
+  }
+}
+
+void tilterLower() {
+  int anglePower = -50;
+  tilter(anglePower);
+  if (angleAdjuster.get_position() <= 0) {
+    angleAdjuster.move_velocity(0);
 }
 
 /*

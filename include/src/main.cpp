@@ -1,9 +1,8 @@
 // Code for a tray bot
-
 #include "main.h"
 #include "globals.hpp"
 #include "auton.hpp"
-#include "tray.h"s
+#include "tray.h"
 
 /**
  * A callback function for LLEMU's center button.
@@ -108,7 +107,7 @@ void competition_initialize() {}
  */
 void autonomous() {
 
-moveStaight(10);
+pathOne();
 
 
 /*

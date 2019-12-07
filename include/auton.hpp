@@ -10,9 +10,14 @@ void rotateCW(float objAngle);
 // rotate counterclockwise
 void rotateCCW(float objAngle);
 // angle adjuster
-void tilterRaise(bool raise);
+void tilterRaise();
 
-void tilterLower(bool lower);
+void tilterLower();
+
+void pathOne();
+
+
+
 
 
 /*

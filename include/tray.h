@@ -1,6 +1,6 @@
 #ifndef DRIVE_H
 #define DRIVE_H
 
-void tilter();
+void tilter(int power);
 
 #endif
