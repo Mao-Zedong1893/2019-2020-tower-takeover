@@ -1,6 +1,6 @@
 #include "main.h"
 #include "globals.hpp"
-#include "move.h"
+#include "tray.h"
 #include "auton.hpp"
 
 
@@ -37,6 +37,10 @@ void rotateCCW(float objAngle) {
     leftBack.move_velocity(-100);
     leftFront.move_velocity(-100);
   }
+}
+
+void tilterRaise(bool raise) {
+  tilter(50);
 }
 
 /*
