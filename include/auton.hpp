@@ -3,6 +3,12 @@
 #include "main.h"
 #include "globals.hpp"
 
+// move strait
+void moveStaight(float objective);
+// rotate clockwise
+void rotateCW(float objAngle);
+// rotate counterclockwise
+void rotateCCW(float objAngle);
 
 
 /*

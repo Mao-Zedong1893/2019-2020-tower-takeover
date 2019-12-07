@@ -2,7 +2,7 @@
 
 #include "main.h"
 #include "globals.hpp"
-#include "auton.cpp"
+#include "auton.hpp"
 #include "move.h"
 
 /**
@@ -107,6 +107,10 @@ void competition_initialize() {}
  * from where it left off.
  */
 void autonomous() {
+
+moveStaight(10);
+
+
 /*
 	void Auton() {
 	  using namespace okapi;
@@ -131,12 +135,6 @@ void autonomous() {
 	  }
 	}
 	*/
-
-moveStaight (12);
-
-rotateCCW (180);
-
-rotateCW (180);
 
 }
 
